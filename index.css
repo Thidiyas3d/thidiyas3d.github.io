@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #1d1a2d;
+    
+}
+h1{
+    width: 83%;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0077b5;
+}
+
+img{
+    float: right;
+    box-shadow: 10px 10px #0077b5;
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
