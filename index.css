@@ -11,9 +11,6 @@ body{
     color: white;
 }
 
-.profile-img{
-    box-shadow: 10px 10px #0077b5;
-}
 
 .profile{
     display: flex;
@@ -25,27 +22,12 @@ body{
     
 }
 
-.education-list{
-    /*border-left: 2px solid #0ebeff;*/
-    border-width:2.5px;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to bottom, 
-      red, 
-      rgba(20, 40, 180, 10)
-    )0 100;
-}
 .project h1{
     border-bottom: 2px solid white;
 }
 
 .social-link{
-    
-    /*color: #64ffda;
-     */
-     text-align: center;
-        
+    text-align: center;   
     padding: 8px;
     font-size: 20px;
 }
@@ -83,18 +65,15 @@ body{
     flex-direction: row;
     flex-wrap:wrap;
     
+    
 }
-
-
 .description-m{
     text-align: center;
 }
 
-
 .hr-line{
     color: wheat;
 }
-
 
 ul{
     list-style-type: none;
@@ -115,17 +94,16 @@ ul>li{
     padding:4px;
 }
 
-
-
-
-
-
-
-
+.try-btn{
+    font-size: 15px;
+    color:blue;
+    cursor: pointer;
+}
 
 
 
 .footer{
     height: 200px;
     background-color: rgb(51, 26, 43);
+    justify-content: center;
 }
