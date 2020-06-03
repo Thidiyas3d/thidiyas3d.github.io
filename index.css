@@ -113,8 +113,7 @@ ul>li{
 }
 .footer>h3>a{
     text-decoration: none;
-    border:1px solid;
     padding: 2px;
     border-radius: 8px;
-    box-shadow: 1px 0px 15px;
+    
 }
